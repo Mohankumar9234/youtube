@@ -29,7 +29,7 @@ import textwrap
 from concurrent.futures import ThreadPoolExecutor, wait
 from time import gmtime, sleep, strftime, time
 
-import psutil
+
 from fake_headers import Headers, browsers
 from faker import Faker
 from requests.exceptions import RequestException
